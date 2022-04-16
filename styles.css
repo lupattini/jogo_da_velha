@@ -45,3 +45,8 @@ h1 {
     background: #313538;
     text-decoration: none;
   }
+
+  footer {
+      padding-top: 15px;
+      font-size: 0.7rem;
+  }
