@@ -1,5 +1,12 @@
 body {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1 {
+    text-decoration: underline;
+    padding: 10px;
 }
 
 .quadrado {
@@ -17,12 +24,24 @@ body {
 .jogador, .vencedor {
     font-size: 30px;
     margin-top: 10px;
+    padding: 10px;
 }
 
-button {
-    margin-top: 10px;
-    width: 100px;
-    height: 30px;
-    background: #eee;
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #828282;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
     cursor: pointer;
-}
+  }
+  
+  .btn:hover {
+    background: #313538;
+    text-decoration: none;
+  }

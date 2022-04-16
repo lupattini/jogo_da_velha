@@ -28,6 +28,7 @@ function escolherQuadrado(id){
 
     mudarJogador(jogador);
     checaVencedor();
+    
 }
 
 function mudarJogador(valor) {
@@ -97,7 +98,7 @@ function checaVencedor(){
 
 function mudarVencedor(quadrado) {
     vencedor = quadrado.innerHTML;
-    vencedorSelecionado.innerHTML = vencedor;
+    vencedorSelecionado.innerHTML = vencedor; 
 }
 
 function mudaCorQuadrado (quadrado1, quadrado2, quadrado3) {
